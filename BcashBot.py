@@ -5,7 +5,7 @@ import os
 import random
 
 
-Footer = "*\n\nFixed it for you.\n\n---\n^\(I ^am ^a ^bot.) ^[*Info*](https://reddit.com/user/BcashBot/comments/98wot8/what_is_this_bot/) ^/ ^[*Code*](https://github.com/Btc-Dev/BcashBot) ^/ ^[*Donate*](https://www.blockchain.com/btc/payment_request?address=3KnT5RWFYqtAy4DsPGyjXvX3i4VkyU1LLx&message=Buy+me+a+cup+of+coffee&amount=0.001)"
+Footer = "*\n\nFixed it for you.\n\n---\n^\(I ^am ^a ^bot.) ^[*Info*](https://reddit.com/user/BcashBot/comments/98wot8/what_is_this_bot/) ^/ ^[*Code*](https://github.com/Btc-Dev/BcashBot) ^/ ^[*Donate*](https://www.blockchain.com/btc/address/3KnT5RWFYqtAy4DsPGyjXvX3i4VkyU1LLx)"
 
     
 def bot_login():
@@ -40,6 +40,7 @@ def run_bot(r, comments_replied_to):
                                 text = text.replace("bitcoin cash", "Bcash")
                                 text = text.replace("bitcoincash", "Bcash")
                                 text = text.replace("bitcoin Cash", "Bcash")
+                                text = text.replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n')
                                 
                          ans = "> " + text + Footer
                          comment.reply(ans)
@@ -77,7 +78,8 @@ def run_bot(r, comments_replied_to):
                                     text = text.replace("bitcoin cash", "Bcash")
                                     text = text.replace("bitcoincash", "Bcash")
                                     text = text.replace("bitcoin Cash", "Bcash")
-                                
+                                    text = text.replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n')
+
                              ans = "> " + text + Footer
                              comment.reply(ans)
                              print ("Replied to comment " + comment.id)
@@ -114,7 +116,8 @@ def run_bot(r, comments_replied_to):
                                         text = text.replace("bitcoin cash", "Bcash")
                                         text = text.replace("bitcoincash", "Bcash")
                                         text = text.replace("bitcoin Cash", "Bcash")
-                                        
+                                        text = text.replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n')
+       
                                  ans = "> " + text + Footer
                                  comment.reply(ans)
                                  print ("Replied to comment " + comment.id)
@@ -151,7 +154,8 @@ def run_bot(r, comments_replied_to):
                                             text = text.replace("bitcoin cash", "Bcash")
                                             text = text.replace("bitcoincash", "Bcash")
                                             text = text.replace("bitcoin Cash", "Bcash")
-                                        
+                                            text = text.replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n')
+  
                                      ans = "> " + text + Footer
                                      comment.reply(ans)
                                      print ("Replied to comment " + comment.id)
@@ -188,6 +192,7 @@ def run_bot(r, comments_replied_to):
                                                 text = text.replace("bitcoin cash", "Bcash")
                                                 text = text.replace("bitcoincash", "Bcash")
                                                 text = text.replace("bitcoin Cash", "Bcash")
+                                                text = text.replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n')
                                 
                                          ans = "> " + text + Footer
                                          comment.reply(ans)
@@ -225,7 +230,8 @@ def run_bot(r, comments_replied_to):
                                                     text = text.replace("bitcoin cash", "Bcash")
                                                     text = text.replace("bitcoincash", "Bcash")
                                                     text = text.replace("bitcoin Cash", "Bcash")
-                                
+                                                    text = text.replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n')
+
                                              ans = "> " + text + Footer
                                              comment.reply(ans)
                                              print ("Replied to comment " + comment.id)
@@ -262,7 +268,8 @@ def run_bot(r, comments_replied_to):
                                                         text = text.replace("bitcoin cash", "Bcash")
                                                         text = text.replace("bitcoincash", "Bcash")
                                                         text = text.replace("bitcoin Cash", "Bcash")
-                                
+                                                        text = text.replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n').replace('\n\n','\n')
+
                                                  ans = "> " + text + Footer
                                                  comment.reply(ans)
                                                  print ("Replied to comment " + comment.id)
